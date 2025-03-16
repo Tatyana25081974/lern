@@ -1,10 +1,18 @@
+import CursorTracker from "./CursorTracker"; // ⬅ Імпортуємо `CursorTracker`
+import styles from "./Task2.module.css"; // ⬅ Підключаємо стилі
+
 const Task2 = () => {
   return (
-    <div>
-      <h2>📌 Завдання 2</h2>
-      <p>Тут буде друге завдання...</p>
+    <div className={styles.taskContainer}>
+      <h2 className={styles.heading}>📌 Завдання 2</h2>
+      <p className={styles.text}>Відстеження позиції курсора</p>
+
+      {/* Додаємо компонент `CursorTracker` */}
+      <div className={styles.trackerContainer}>
+        <CursorTracker />
+      </div>
     </div>
   );
 };
 
-export default Task2; // ✅ Повинен бути `export default`
+export default Task2;

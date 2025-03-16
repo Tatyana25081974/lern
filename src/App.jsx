@@ -4,6 +4,7 @@ import Task2 from "./components/Task2";
 import Task3 from "./components/Task3";
 import "./App.css"; // 🔹 Підключаємо стилі
 
+
 const App = () => {
   return (
     <Router>

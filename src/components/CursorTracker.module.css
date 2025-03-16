@@ -1,0 +1,18 @@
+.tracker {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #00bcd4;
+    /* Бірюзова рамка */
+    background-color: #1e1e1e;
+    /* Темний фон */
+    color: #ff4081;
+    /* Рожевий текст */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
