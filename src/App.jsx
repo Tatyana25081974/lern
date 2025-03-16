@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Player from "./components/Player";
-import Task2 from "./components/Task2";
-import Task3 from "./components/Task3";
+import Task2 from "./components/task2";
+import Task3 from "./components/task3";
 import "./App.css"; // 🔹 Підключаємо стилі
 
 

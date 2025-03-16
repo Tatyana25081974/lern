@@ -1,0 +1,43 @@
+/* 🎯 Основний контейнер */
+.taskContainer {
+    text-align: center;
+    padding: 30px;
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0, 188, 212, 0.6);
+
+    width: 95%;
+    max-width: 1600px;
+
+    margin: 40px auto;
+    overflow: hidden;
+    /* ❗Запобігає виходу за межі */
+    box-sizing: border-box;
+}
+
+/* 🎯 Контейнер для `CursorTracker` */
+.trackerContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 188, 212, 0.2);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 188, 212, 0.4);
+    font-size: 20px;
+    font-weight: bold;
+    color: #00bcd4;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+
+    /* Додаємо для вирівнювання */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    /* Вистав розмір, щоб було видно */
+}
+/* ✨ Ефект при наведенні */
+.trackerContainer:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 188, 212, 0.6);
+}
