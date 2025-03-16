@@ -1,0 +1,86 @@
+/* Контейнер для відео та аудіо */
+.player-container {
+    display: flex;
+    /* Використовуємо Flexbox */
+    flex-direction: column;
+    /* Розміщення елементів у колонку */
+    justify-content: center;
+    /* Центрування по вертикалі */
+    align-items: center;
+    /* Центрування по горизонталі */
+    height: 100vh;
+    /* Займає всю висоту екрану */
+    background-color: #121212;
+    /* Темний фон для стилю */
+}
+
+/* Стилі для відео */
+video {
+    width: 100vw;
+
+    height: 66vh;
+    /* 2/3 висоти екрану */
+    object-fit: cover;
+    /* Заповнює область, не змінюючи пропорції */
+    border-radius: 10px;
+    /* Закруглені кути */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    /* Тінь для стилю */
+}
+
+/* Контейнер для кнопок керування */
+.controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Стилі для кнопок */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Кнопки для відео */
+.play-video {
+    background-color: #28a745;
+    /* Зелений */
+    color: white;
+}
+
+.pause-video {
+    background-color: #dc3545;
+    /* Червоний */
+    color: white;
+}
+
+/* Кнопки для аудіо */
+.play-audio {
+    background-color: #007bff;
+    /* Синій */
+    color: white;
+}
+
+.pause-audio {
+    background-color: #ffc107;
+    /* Жовтий */
+    color: black;
+}
+
+/* Стилі для аудіоплеєра */
+audio {
+    margin-top: 20px;
+    width: 50vw;
+    /* 50% ширини екрану */
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+    /* Додає тінь */
+}
