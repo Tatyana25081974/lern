@@ -1,5 +1,5 @@
 import CursorTracker from "./CursorTracker"; // ⬅ Імпортуємо `CursorTracker`
-import styles from "./Task2.module.css"; // ⬅ Підключаємо стилі
+import styles from "./task2.module.css"; // ⬅ Підключаємо стилі
 
 const Task2 = () => {
   return (

@@ -1,6 +1,6 @@
  
 import { useState, useRef } from "react";
-import styles from "./Task3.module.css";
+import styles from "./task3.module.css";
 
 const Task3 = () => {
   const [textColor, setTextColor] = useState("red"); // Колір тексту (змінюється вперед)
